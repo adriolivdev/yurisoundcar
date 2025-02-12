@@ -1,0 +1,167 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url(images/background_yurisoundcar.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    overflow: hidden;
+}
+
+.overlay {
+    position: relative;
+    z-index: 1;
+}
+
+.overlay::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: -1;
+}
+
+.description {
+    color: #ffffff;
+    font-size: 19px;
+    padding: 10px;
+    text-align: justify;
+    font-weight: 100;
+    word-spacing: -1.5px;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 13px;
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+span {
+    font-weight: bold;
+    color: #ff7e00;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+#contato {
+    text-align: center;
+}
+
+.container {
+    background: rgba(255, 255, 255, 0.5);
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.5));
+    backdrop-filter: blur(50px);
+    width: 100%;
+    max-width: 500px;
+    text-align: center;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    z-index: 1;
+    position: relative;
+    overflow: hidden;
+}
+
+.logo {
+    margin-bottom: 20px;
+}
+
+.logo img {
+    width: 160px;
+    height: auto;
+    border-radius: 80px;
+}
+
+#title_map {
+    color: #ff7e00;
+}
+
+.map-container {
+    margin-bottom: 20px;
+    font-size: 15px;
+    color: #ffffff;
+    font-weight: bold;
+    margin-top: 15px;
+}
+
+.links {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-bottom: 50px;
+}
+
+.links a {
+    background-color: #000000;
+    color: #ffffff;
+    padding: 15px;
+    text-decoration: none;
+    border-radius: 15px;
+    font-size: 17px;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+
+.links a:hover {
+    background-color: #ff7e00;
+}
+
+.social-media {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.social-icon {
+    font-size: 30px;
+    color: #ff7e00;
+    transition: color 0.3s;
+}
+
+.social-icon:hover {
+    color: #ff7e00;
+}
+
+footer {
+    margin-top: 30px;
+    font-size: 14px;
+    color: #fffcfc;
+}
+a {
+    color: #ade736;
+    text-decoration: none;
+}
+
+/* RESPONSIVIDADE */
+@media (max-width: 768px) {
+    body {
+        flex-direction: column;
+        height: auto;
+        padding: 20px;
+    }
+    
+    .container {
+        width: 90%;
+        padding: 20px;
+    }
+    
+    .description {
+        font-size: 16px;
+        padding: 10px;
+    }
+    
+    .links a {
+        font-size: 15px;
+        padding: 12px;
+    }
+    
+    .social-icon {
+        font-size: 25px;
+    }
+}
