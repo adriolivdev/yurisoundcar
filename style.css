@@ -8,7 +8,6 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
     background-image: url(images/background_yurisoundcar.png);
     background-size: cover;
     background-position: center;
@@ -16,6 +15,11 @@ body {
     overflow: hidden;
     background-attachment: fixed;
 
+}
+html, body {
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
 }
 
 .overlay {
@@ -65,7 +69,7 @@ span {
 }
 
 .container {
-    background: rgba(255, 255, 255, 0.5);
+    background: rgba(255, 255, 255, 0.2);
     background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.5));
     backdrop-filter: blur(50px);
     width: 90%;
@@ -173,6 +177,7 @@ a {
         background-size: cover;
         background-position: center;
         font-style: bold;
+        background: fixed;
     }
 
     .container {
@@ -225,7 +230,12 @@ a {
 }
 
 /* MEDIA QUERY PARA CELULARES MENORES (ATÉ 480px) */
-@media (max-width: 480px) {
+@media (max-width: 480px) 
+{   body{
+        background-repeat: no-repeat;
+        overflow: hidden;
+        background-attachment: fixed;
+}
     .container {
         width: 95%; /* Ocupar mais a tela em celulares pequenos */
         max-width: 350px;
