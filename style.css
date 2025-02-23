@@ -182,8 +182,8 @@ a {
     }
 
     .container {
-        width: 90%;  /* Ajusta a largura para ocupar quase toda a tela */
-        max-width: 400px; /* Limita a largura máxima para não ficar grande demais */
+        width: 80%;  /* Ajusta a largura para ocupar quase toda a tela */
+        max-width: 600px; /* Limita a largura máxima para não ficar grande demais */
         padding: 15px; /* Reduz o espaço interno */
         border-radius: 8px;
         max-height: 100%; 
