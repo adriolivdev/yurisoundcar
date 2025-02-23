@@ -169,17 +169,15 @@ a {
    /* MEDIA QUERY PARA TELAS MENORES (ATÉ 768px) */
 @media (max-width: 768px) {
     body {
+         background-image: url(images/background_yurisoundcar.png);
+         background-attachment: fixed;
         flex-direction: column;
         padding: 10px;
         height: auto;
         width: 100%;
-        overflow: auto;
         background-size: cover;
         background-position: center;
         font-style: bold;
-         background-image: url(images/background_yurisoundcar.png);
-         background-attachment: fixed;
-        overflow: auto;
 
     }
 
@@ -188,6 +186,7 @@ a {
         max-width: 400px; /* Limita a largura máxima para não ficar grande demais */
         padding: 15px; /* Reduz o espaço interno */
         border-radius: 8px;
+        max-height: 70vh; 
     }
 
     .logo img {
@@ -247,7 +246,6 @@ a {
         max-width: 350px;
         padding: 12px;
         font-style: bold;
-        overflow: auto;
     }
 
     .description {
