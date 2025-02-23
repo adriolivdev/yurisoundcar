@@ -186,7 +186,7 @@ a {
         max-width: 400px; /* Limita a largura máxima para não ficar grande demais */
         padding: 15px; /* Reduz o espaço interno */
         border-radius: 8px;
-        max-height: 100vh; 
+        max-height: 100%; 
         overflow-y: auto;
     }
 
@@ -248,6 +248,7 @@ a {
         padding: 12px;
         font-style: bold;
          overflow-y: auto;
+         max-height: 100%; 
     }
 
     .description {
