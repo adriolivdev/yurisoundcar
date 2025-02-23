@@ -188,6 +188,7 @@ a {
         border-radius: 8px;
         max-height: 70vh; 
         overflow-y: auto;
+        display:flex;
     }
 
     .logo img {
@@ -248,6 +249,7 @@ a {
         padding: 12px;
         font-style: bold;
          overflow-y: auto;
+         display:flex;
     }
 
     .description {
