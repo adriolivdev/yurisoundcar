@@ -179,6 +179,7 @@ a {
         font-style: bold;
          background-image: url(images/background_yurisoundcar.png);
          background-attachment: fixed;
+        overflow: auto;
 
     }
 
@@ -246,6 +247,7 @@ a {
         max-width: 350px;
         padding: 12px;
         font-style: bold;
+        overflow: auto;
     }
 
     .description {
