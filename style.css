@@ -187,6 +187,7 @@ a {
         padding: 15px; /* Reduz o espaço interno */
         border-radius: 8px;
         max-height: 70vh; 
+        overflow-y: auto;
     }
 
     .logo img {
@@ -246,6 +247,7 @@ a {
         max-width: 350px;
         padding: 12px;
         font-style: bold;
+         overflow-y: auto;
     }
 
     .description {
