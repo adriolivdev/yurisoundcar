@@ -178,6 +178,7 @@ a {
         background-position: center;
         font-style: bold;
          background-image: url(images/background_yurisoundcar.png);
+        background-size: cover; 
     }
 
     .container {
@@ -232,9 +233,11 @@ a {
 /* MEDIA QUERY PARA CELULARES MENORES (ATÉ 480px) */
 @media (max-width: 480px) 
 {   body{
-        background-repeat: no-repeat;
-        overflow: hidden;
-     background-image: url(images/background_yurisoundcar.png);
+            background-repeat: no-repeat;
+            overflow: hidden;
+         background-image: url(images/background_yurisoundcar.png);
+        background-size: cover; 
+    
 }
     .container {
         width: 95%; /* Ocupar mais a tela em celulares pequenos */
