@@ -178,6 +178,7 @@ a {
         background-position: center;
         font-style: bold;
         background: fixed;
+         background-image: url(images/background_yurisoundcar.png);
     }
 
     .container {
@@ -235,6 +236,7 @@ a {
         background-repeat: no-repeat;
         overflow: hidden;
         background-attachment: fixed;
+     background-image: url(images/background_yurisoundcar.png);
 }
     .container {
         width: 95%; /* Ocupar mais a tela em celulares pequenos */
