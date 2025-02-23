@@ -177,7 +177,6 @@ a {
         background-size: cover;
         background-position: center;
         font-style: bold;
-        background: fixed;
          background-image: url(images/background_yurisoundcar.png);
     }
 
@@ -235,7 +234,6 @@ a {
 {   body{
         background-repeat: no-repeat;
         overflow: hidden;
-        background-attachment: fixed;
      background-image: url(images/background_yurisoundcar.png);
 }
     .container {
