@@ -216,6 +216,7 @@ a {
     .links a {
         font-size: 20px;
         padding: 10px;
+        height: 45px;
     }
 
     .social-media {
