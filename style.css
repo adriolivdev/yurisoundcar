@@ -183,11 +183,12 @@ a {
 
     .container {
         width: 80%;  /* Ajusta a largura para ocupar quase toda a tela */
-        max-width: 600px; /* Limita a largura máxima para não ficar grande demais */
+        max-width: 500px; /* Limita a largura máxima para não ficar grande demais */
         padding: 15px; /* Reduz o espaço interno */
         border-radius: 8px;
-        max-height: 100%; 
+        max-height: 100vh; 
         overflow-y: auto;
+        position: relative;
     }
 
     .logo img {
@@ -248,7 +249,8 @@ a {
         padding: 12px;
         font-style: bold;
          overflow-y: auto;
-         max-height: 100%; 
+         max-height: 100vh; 
+         position: relative;
     }
 
     .description {
